@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: Helvetica Neue, Helvetica, PingFang SC, Hiragino Sans GB, Microsoft YaHei, SimSun, sans-serif;
+  box-sizing: border-box;
+  font-style: normal;
+}
+
+body,
+html {
+  height: 100%;
+  background: #ffffff;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+}
+
+ul,
+li,
+a {
+  list-style: none;
+  font-style: normal;
+  text-decoration: none;
+}
+
+a,
+button {
+  outline: none;
+  outline-offset: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+a:focus,
+button:focus,
+.btn:focus,
+a:active,
+button:active,
+.btn:active,
+a.active,
+button.active,
+.btn.active,
+input,
+input:focus {
+  outline: none;
+  outline-offset: 0;
+}
+
+img {
+  max-width: 100%;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  /* WebKit browsers */
+  color: #666666 !important;
+}
+
+input:-moz-placeholder,
+textarea:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  color: #666666 !important;
+}
+
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  color: #666666 !important;
+}
+
+input:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  color: #666666 !important;
+}
+
+input:focus::-webkit-input-placeholder {
+  color: transparent;
+}
+
+input:focus::-moz-placeholder {
+  color: transparent;
+}
+
+input:focus:-moz-placeholder {
+  color: transparent;
+}
+
+input:focus:-ms-input-placeholder {
+  color: transparent;
+}
